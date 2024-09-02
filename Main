@@ -99,7 +99,7 @@ local Section = Tab:AddSection({
 Tab:AddButton({
 	Name = "Discord ~~~~ xbl_bdg",
 	Callback = function()
-      		game.Players.LocalPlayer:Kick('Add My Discord')
+      		game.Players.LocalPlayer:Kick('Add My Discord https://discord.gg/98qfaVts')
   	end
 })
 OrionLib:Init()
