@@ -10,7 +10,7 @@ wait(5)
 
 local LocalPlayer = game.Players.LocalPlayer or game.Players:FindFirstChild(game.Players.LocalPlayer.Name)
 
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Breadido/Smoll/main/souce.lua"))()
+local Library = local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("BDG Hub", "BloodTheme")
 local Tab = Window:NewTab("LT2")
 local Section = Tab:NewSection("Scripts")
