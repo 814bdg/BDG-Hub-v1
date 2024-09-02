@@ -82,4 +82,23 @@ Tab:AddButton({
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/814bdg/Fly-Gui-/main/Fly%20Gui",true))()
   	end    
 })
+Tab:AddButton({
+	Name = "BDG NoClip Gui",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/814bdg/No-Clip/main/No%20Clip",true))()
+  	end    
+})
+local Tab = Window:MakeTab({
+	Name = "Socials",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+local Section = Tab:AddSection({
+	Name = "My Social Media"
+})
+Tab:AddButton({
+	Name = "Discord ~~~~ xbl_bdg",
+	Callback = function()
+      		print("xbl_bdg")
+  	end    
 OrionLib:Init()
