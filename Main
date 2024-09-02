@@ -3,9 +3,8 @@
 -- new blood is line 72 (ik it says hard dragger in code)
 local scripthub = Instance.new("ScreenGui")
 local GUI = Instance.new("Frame")
-local Blood = Instance.new("TextButton")
-local Dupe = Instance.new("TextButton")
-local HardDragger = Instance.new("TextButton")
+local old = Instance.new("TextButton")
+local new = Instance.new("TextButton")
 local OpenClose = Instance.new("Frame")
 local Close = Instance.new("TextButton")
 local Open = Instance.new("TextButton")
@@ -25,33 +24,33 @@ GUI.Size = UDim2.new(0, 214, 0, 149)
 GUI.Style = Enum.FrameStyle.RobloxRound
 GUI.Draggable=true
 
-Blood.Name = "Dark X Old Gui"
-Blood.Parent = GUI
-Blood.BackgroundColor3 = Color3.new(0.1, 0.1, 0.1)
-Blood.BackgroundTransparency = 0.40000000596046
-Blood.BorderSizePixel = 0
-Blood.Position = UDim2.new(-0.0430000015, 0, -0.0359999985, -4)
-Blood.Size = UDim2.new(0, 204, 0, 50)
-Blood.Font = Enum.Font.SourceSans
-Blood.Text = "Dark X Old Gui"
-Blood.TextColor3 = Color3.new(1, 0, 0)
-Blood.TextSize = 30
+old.Name = "Dark X Old Gui"
+old.Parent = GUI
+l.BackgroundColor3 = Color3.new(0.1, 0.1, 0.1)
+old.BackgroundTransparency = 0.40000000596046
+old.BorderSizePixel = 0
+old.Position = UDim2.new(-0.0430000015, 0, -0.0359999985, -4)
+old.Size = UDim2.new(0, 204, 0, 50)
+old.Font = Enum.Font.SourceSans
+old.Text = "Dark X Old Gui"
+old.TextColor3 = Color3.new(1, 0, 0)
+old.TextSize = 30
 
 Blood.MouseButton1Click:Connect(function()
 loadstring(game:HttpGet('https://web.archive.org/web/20240325130258/https://raw.githubusercontent.com/darkxwin/darkxsourcethinkyoutousedarkx/main/darkx'))()
 end)
 
-Dupe.Name = "Dark X New Gui"
-Dupe.Parent = GUI
-Dupe.BackgroundColor3 = Color3.new(0.12549, 0.694118, 1)
-Dupe.BackgroundTransparency = 0.40000000596046
-Dupe.BorderSizePixel = 0
-Dupe.Position = UDim2.new(-0.0379999988, -1, 0.300000012, 1)
-Dupe.Size = UDim2.new(0, 204, 0, 50)
-Dupe.Font = Enum.Font.SourceSans
-Dupe.Text = "Dark X New Gui"
-Dupe.TextColor3 = Color3.new(1, 0, 0)
-Dupe.TextSize = 30
+new.Name = "Dark X New Gui"
+new.Parent = GUI
+new.BackgroundColor3 = Color3.new(0.12549, 0.694118, 1)
+new.BackgroundTransparency = 0.40000000596046
+new.BorderSizePixel = 0
+new.Position = UDim2.new(-0.0379999988, -1, 0.300000012, 1)
+new.Size = UDim2.new(0, 204, 0, 50)
+new.Font = Enum.Font.SourceSans
+new.Text = "Dark X New Gui"
+new.TextColor3 = Color3.new(1, 0, 0)
+new.TextSize = 30
 
 Dupe.MouseButton1Click:Connect(function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/814bdg/Wow-Hub/main/%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%20%E2%80%8E%20%E2%80%8E%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%20%E2%80%8E%20%E2%80%8E%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%20%E2%80%8E%20%E2%80%8E%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20Wow%20Hub", true))()
