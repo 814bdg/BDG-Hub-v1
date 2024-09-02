@@ -32,3 +32,4 @@ Tab:AddButton({
       		loadstring(game:HttpGet('https://raw.githubusercontent.com/bdgxs/Old-Dark/main/Dark%20Old'))()
   	end    
 })
+OrionLib:Init()
