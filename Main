@@ -76,4 +76,10 @@ Tab:AddButton({
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt",true))()
   	end    
 })
+Tab:AddButton({
+	Name = "BDG Fly Gui",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/814bdg/Fly-Gui-/main/Fly%20Gui",true))()
+  	end    
+})
 OrionLib:Init()
