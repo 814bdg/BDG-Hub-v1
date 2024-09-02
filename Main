@@ -11,7 +11,7 @@ wait(5)
 local LocalPlayer = game.Players.LocalPlayer or game.Players:FindFirstChild(game.Players.LocalPlayer.Name)
 
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "BDG Hub", HidePremium = false, SaveConfig = true, ConfigFolder = "BDG Hub"})
+local Window = OrionLib:MakeWindow({Name = "BDG Hub", HidePremium = false, SaveConfig = true, ConfigFolder = "BDG Hub", IntroText = "Welcome To BDG Hub"})
 local Tab = Window:MakeTab({
 	Name = "Lumber tycoon 2",
 	Icon = "rbxassetid://4483345998",
