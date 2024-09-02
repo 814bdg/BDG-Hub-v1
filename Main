@@ -10,11 +10,11 @@ local OpenClose = Instance.new("Frame")
 local Close = Instance.new("TextButton")
 local Open = Instance.new("TextButton")
 --Properties:
-scripthub.Name = "script hub"
+scripthub.Name = "BDG hub"
 scripthub.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 scripthub.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
-GUI.Name = "GUI"
+GUI.Name = "BDG Hub"
 GUI.Parent = scripthub
 GUI.Active = true
 GUI.BackgroundColor3 = Color3.new(0.219608, 0.219608, 0.219608)
@@ -25,7 +25,7 @@ GUI.Size = UDim2.new(0, 214, 0, 149)
 GUI.Style = Enum.FrameStyle.RobloxRound
 GUI.Draggable=true
 
-Blood.Name = "Blood"
+Blood.Name = "Dark X Old Gui"
 Blood.Parent = GUI
 Blood.BackgroundColor3 = Color3.new(0.1, 0.1, 0.1)
 Blood.BackgroundTransparency = 0.40000000596046
@@ -38,8 +38,7 @@ Blood.TextColor3 = Color3.new(1, 0, 0)
 Blood.TextSize = 30
 
 Blood.MouseButton1Click:Connect(function()
-loadstring(game:HttpGet("https://pastebin.com/raw/DfFmZuR0", true))()
-end)
+loadstring(game:HttpGet('https://web.archive.org/web/20240325130258/https://raw.githubusercontent.com/darkxwin/darkxsourcethinkyoutousedarkx/main/darkx'))()
 
 Dupe.Name = "Dupe"
 Dupe.Parent = GUI
