@@ -1,8 +1,8 @@
 game.StarterGui:SetCore("SendNotification", {
 
-	Title = "BDG Hub v1",
+	Title = "BDG Hub V1",
 
-	Text = "Loading BDG Hub v1, please be patient"
+	Text = "Loading BDG Hub V1, please be patient"
 
 })
 
