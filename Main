@@ -29,6 +29,6 @@ Tab:AddButton({
 Tab:AddButton({
 	Name = "Dark X Old Gui",
 	Callback = function()
-      		loadstring(game:HttpGet('https://web.archive.org/web/20240325130258/https://raw.githubusercontent.com/darkxwin/darkxsourcethinkyoutousedarkx/main/darkx'))()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/bdgxs/Old-Dark/main/Dark%20Old'))()
   	end    
 })
