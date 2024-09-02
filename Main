@@ -61,7 +61,7 @@ local Section = Tab:AddSection({
 Tab:AddButton({
 	Name = "Anti Afk",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/frencaliber/LuaWareLoader.lw/main/luawareloader.wtf",true))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/814bdg/Anti-Afk-/main/Anti%20Afk",true))()
   	end    
 })
 Tab:AddButton({
