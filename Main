@@ -1,3 +1,15 @@
+game.StarterGui:SetCore("SendNotification", {
+
+	Title = "Exploit UI",
+
+	Text = "Loading the exploit UI, please be patient"
+
+})
+
+wait(5)
+
+local LocalPlayer = game.Players.LocalPlayer or game.Players:FindFirstChild(game.Players.LocalPlayer.Name)
+
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Breadido/Smoll/main/souce.lua"))()
 local Window = Library.CreateLib("BDG Hub", "BloodTheme")
 local Tab = Window:NewTab("LT2")
