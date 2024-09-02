@@ -1,8 +1,8 @@
 game.StarterGui:SetCore("SendNotification", {
 
-	Title = "Exploit UI",
+	Title = "BDG Hub v1",
 
-	Text = "Loading the exploit UI, please be patient"
+	Text = "Loading BDG Hub v1, please be patient"
 
 })
 
@@ -10,8 +10,8 @@ wait(5)
 
 local LocalPlayer = game.Players.LocalPlayer or game.Players:FindFirstChild(game.Players.LocalPlayer.Name)
 
-local Library = local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("BDG Hub", "BloodTheme")
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("BDG Hub V1", "BloodTheme")
 local Tab = Window:NewTab("LT2")
 local Section = Tab:NewSection("Scripts")
 Section:NewButton("Dark X New Gui", "Old Script", function()
