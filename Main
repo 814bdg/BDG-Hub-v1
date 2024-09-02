@@ -32,4 +32,22 @@ Tab:AddButton({
       		loadstring(game:HttpGet('https://raw.githubusercontent.com/bdgxs/Old-Dark/main/Dark%20Old'))()
   	end    
 })
+Tab:AddButton({
+	Name = "Butter Hub",
+	Callback = function()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/Butterisgood/Butter/main/Root2.lua'))()
+  	end    
+})
+Tab:AddButton({
+	Name = "Toads Gui",
+	Callback = function()
+      		loadstring(game:HttpGet("https://bit.ly/3x90l99"))()
+  	end    
+})
+Tab:AddButton({
+	Name = "LuaWare Gui",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/frencaliber/LuaWareLoader.lw/main/luawareloader.wtf",true))()
+  	end    
+})
 OrionLib:Init()
