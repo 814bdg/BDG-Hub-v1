@@ -1,57 +1,10 @@
--- custom hard dragger is line 40 (ik it says blood in code)
--- dupe is line 56
--- new blood is line 72 (ik it says hard dragger in code)
-local scripthub = Instance.new("ScreenGui")
-local GUI = Instance.new("Frame")
-local old = Instance.new("TextButton")
-local new = Instance.new("TextButton")
-local OpenClose = Instance.new("Frame")
-local Close = Instance.new("TextButton")
-local Open = Instance.new("TextButton")
---Properties:
-scripthub.Name = "BDG hub"
-scripthub.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
-scripthub.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
-
-GUI.Name = "BDG Hub"
-GUI.Parent = scripthub
-GUI.Active = true
-GUI.BackgroundColor3 = Color3.new(0.219608, 0.219608, 0.219608)
-GUI.BorderSizePixel = 0
-GUI.Position = UDim2.new(0.0550458729, 0, 0.671503961, 0)
-GUI.Selectable = true
-GUI.Size = UDim2.new(0, 214, 0, 149)
-GUI.Style = Enum.FrameStyle.RobloxRound
-GUI.Draggable=true
-
-old.Name = "Dark X Old Gui"
-old.Parent = GUI
-l.BackgroundColor3 = Color3.new(0.1, 0.1, 0.1)
-old.BackgroundTransparency = 0.40000000596046
-old.BorderSizePixel = 0
-old.Position = UDim2.new(-0.0430000015, 0, -0.0359999985, -4)
-old.Size = UDim2.new(0, 204, 0, 50)
-old.Font = Enum.Font.SourceSans
-old.Text = "Dark X Old Gui"
-old.TextColor3 = Color3.new(1, 0, 0)
-old.TextSize = 30
-
-Blood.MouseButton1Click:Connect(function()
-loadstring(game:HttpGet('https://web.archive.org/web/20240325130258/https://raw.githubusercontent.com/darkxwin/darkxsourcethinkyoutousedarkx/main/darkx'))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("BDG Hub", "BloodTheme")
+local Tab = Window:NewTab("LT2")
+local Section = Tab:NewSection("Main")
+Section:NewButton("Butter v2", "best script", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Butterisgood/Butter/main/lt2'))("")
 end)
-
-new.Name = "Dark X New Gui"
-new.Parent = GUI
-new.BackgroundColor3 = Color3.new(0.12549, 0.694118, 1)
-new.BackgroundTransparency = 0.40000000596046
-new.BorderSizePixel = 0
-new.Position = UDim2.new(-0.0379999988, -1, 0.300000012, 1)
-new.Size = UDim2.new(0, 204, 0, 50)
-new.Font = Enum.Font.SourceSans
-new.Text = "Dark X New Gui"
-new.TextColor3 = Color3.new(1, 0, 0)
-new.TextSize = 30
-
-Dupe.MouseButton1Click:Connect(function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/814bdg/Wow-Hub/main/%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%20%E2%80%8E%20%E2%80%8E%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%20%E2%80%8E%20%E2%80%8E%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%20%E2%80%8E%20%E2%80%8E%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20%E2%80%8E%20Wow%20Hub", true))()
+Section:NewButton("Dark X", "mod wood", function()
+    loadstring(game:HttpGet"https://raw.githubusercontent.com/darkxwin/darkxsourcethinkyoutousedarkx/main/darkx")()
 end)
